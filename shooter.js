@@ -56,8 +56,8 @@ function createrLaserElement(){
     return newLaser;
 }
 
-function  (){
+//function  (){
 
-}
+//}
 
 window.addEventListener('keydown', flyShip);
