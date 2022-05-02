@@ -102,10 +102,11 @@ function moveAlien(alien) {
         if (xPosition <= 50) {
             if (Array.from(alien.classList).includes('dead-alien')) {
                 alien.remove();
-            } else {
+            }
+             else {
                 gameOver();
             } 
-        }
+    }
             else {
                 alien.style.left = `${xPosition - 4}px`;
             }
